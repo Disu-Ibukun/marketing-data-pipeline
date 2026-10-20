@@ -1,0 +1,12 @@
+
+@"
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+target/
+dbt_packages/
+logs/
+*.csv
+"@ | Set-Content .gitignore
